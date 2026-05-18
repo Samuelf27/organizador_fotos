@@ -1,0 +1,29 @@
+# PyTorch com CUDA 12.1 — instalado separadamente no .bat
+# torch, torchvision
+
+# Embeddings visuais
+open_clip_torch>=2.24.0
+
+# Reconhecimento facial (mais moderno e rápido em GPU que face_recognition)
+insightface>=0.7.3
+onnxruntime-gpu>=1.17.0
+
+# Manipulação de imagens e metadados
+Pillow>=10.0.0
+pillow-heif>=0.15.0
+exifread>=3.0.0
+
+# Comunicação com Ollama
+ollama>=0.2.0
+
+# Clustering
+hdbscan>=0.8.33
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Banco e utilitários
+tqdm>=4.66.0
+pandas>=2.0.0
+
+# Interface de busca
+streamlit>=1.32.0
